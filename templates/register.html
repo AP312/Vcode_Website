@@ -290,7 +290,7 @@
 
        #submitbtn
        {
-            margin-left: 350px;
+            margin-left: 650px;
        }
 
        .form
@@ -309,7 +309,7 @@
 <script>
     function submitAssign()
     {
-        alert("Assignment Successfully Submitted!!!");
+        alert("Successfully Registered!!!");
     }
 </script>
 
@@ -330,18 +330,19 @@
     <div class="form">
     <form autocomplete="on">
         <label>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input placeholder="First Last" type="text" required><br><br>
-        <label>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="number" min="1" required><br><br>
+        <label>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="number" min="1" ><br><br>
         <label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input placeholder="Male / Female" type="text" ><br><br>
-        <label>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input placeholder="9999999999" type="tel" required><br><br>
+        <label>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input placeholder="9999999999" type="tel" ><br><br>
         <label>School(Name):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text"><br><br>
         <label>Junior College(Name):&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text"><br><br>
         <label>University(Name):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text"><br><br>
         <label>Degree(Name):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text"><br><br>
         <label>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" maxlength="50"><br><br>
-        <label>I accept the website's policies:&nbsp;&nbsp;&nbsp;</label><input type="checkbox" required>
+        <label>I accept the website's policies:&nbsp;&nbsp;&nbsp;</label><input type="checkbox" >
         <br><br><br><br><br><br><br><br>
-        <a href="http://127.0.0.1:8000/"><button id="submitbtn" class="btn">Submit</button></a>
-    </form></div>
+        </form></div>
+    <div> <a href="http://127.0.0.1:8000/roadmap"><button onclick="submitAssign()" id="submitbtn" class="btn">Submit</button></a></div>
+
 </div>
 
 <br>

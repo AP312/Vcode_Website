@@ -59,9 +59,9 @@
             border-top-style: solid;
             border-top-width: 85px;
             border-top-color: white;
-
-            text-align:justify;
-            width: 100%;
+            margin-left:70px;
+            text-align:center;
+            width: 90%;
             border-radius: 30px;
             padding: 4px 0px;
             box-shadow: 15px 15px 10px grey;
@@ -275,46 +275,13 @@
           color: brown;
        }
 
-       label
-       {
-          font-size: 30px;
-          color: yellow;
-          margin-left:80px;
-       }
-
-       input
-       {
-          height: 30px;
-          border-radius: 10px;
-          margin-left:80px;
-       }
-
-       #submitbtn
-       {
-            margin-left: 100px;
-       }
-
-       #submitbtn1
-       {
-            margin-left: 50px;
-       }
-
-       .form
-       {
-           margin-top:200px;
-           margin-left:500px;
-           height: 420px;
-           border-radius:50px;
-           width: 300px;
-
-       }
 
 
     </style>
 <script>
     function submitAssign()
     {
-        alert("Logged In Successfully!!!");
+        alert("Assignment Successfully Submitted!!!");
     }
 </script>
 
@@ -325,22 +292,57 @@
     <ul id="nav" class="navlink">
         <li id="navlist"><a id="navr0" href="http://127.0.0.1:8000/roadmap">Course</a></li>
         <li id="avatarli" class="avatarli"><a id="navr6" href="Home.html"><img class="avatar"  src="{% static 'images/img41.png' %}"></a></li>
+        <li ><a id="navr5" href="#question3">Difficult</a></li>
+        <li ><a id="navr4" href="#question2">Medium</a></li>
+        <li ><a id="navr3" href="#question1">Easy</a></li>
         <li ><a id="navr2" href="http://127.0.0.1:8000/IDE">Code</a></li>
         <li ><a id="navr1" href="http://127.0.0.1:8000/">Home</a></li>
     </ul>
 
 </div>
 
-<div class="fecontent">
-    <div class="form">
-    <form autocomplete="on">
-        <h1><label>Login email</label></h1><br><br><input placeholder="xyz@vcode.com" type="email"><br><br>
-        <h1><label>Password</label></h1><br><br><input type="password">
-        <br><br>
 
-    </form></div>
-           <div><a href="http://127.0.0.1:8000/roadmap"><button onclick="submitAssign()" id="submitbtn" class="btn">Login</button></a><br><br></div>
-        <div><a href="http://127.0.0.1:8000/register"><button id="submitbtn1" class="btn">New Register</button></a></div>
+<div id="q" class="fecontent">
+<div class="fecontent1">
+</div><br>
+    <div class="fecontent1"><h2>Front-End-Assignment-1</h2></div><br>
+
+    <div id="q1" class="fecontent2">
+    <div class="fecontent1"><h3> Make Tribute Page</h3></div><br>
+<iframe></iframe>
+    </div>
+
+    <br><br><br><br>
+
+    <div id="q2" class="fecontent2">
+    <div class="fecontent1"><h3> Make webpage including form</h3></div><br>
+        <div class="question" id="question2">
+            Forms are always an essential part of any project and you will be working with a lot of forms in most of the applications so why not practice it earlier<br>
+            and test your knowledge. Once you get familiar with the input field or basic tags in HTML to create a form make a project using all those tags.<br>
+            How to use a text field, checkbox, radio button, date, and other important elements in a single form. You will be learning how to give a proper structure to a webpage while creating a form.<br>
+            Knowledge of HTML/HTML5 is good enough but you can use a bit of CSS to make the project look better. Take help from the links given below. <br>
+            <br><a href="https://codepen.io/gregg50/pen/QWwOVKV">Link1</a><br>
+            <a href="https://codepen.io/laurencenairne/full/zLXRPq/">Link2</a><br><br>
+            <input class="btn" type="file">
+        </div></div>
+
+    <br><br><br><br>
+
+    <div id="q3" class="fecontent2">
+    <div class="fecontent1"><h3> Make a landing page</h3></div><br>
+        <div class="question" id="question3">
+            A landing page is another good project you can make using HTML and CSS but it requires a solid knowledge of these two building blocks.<br>
+            You will be using lots of creativity while making a landing page. You will practice how to add footer and header, create columns, align-items, divide the sections and a lot of things.<br>
+            You will have to use CSS carefully keeping in mind that different elements do not overlap with each other. You will also take care of color combinations, padding, margin,<br>
+            space between sections, paragraphs, and boxes. Color combinations should go well with each other for different sections or backgrounds. You can take help from the link given below.<br>
+            <br><a href="https://jolly-kalam-23776e.netlify.app/fullscreenlanding/">Link1</a><br>
+            <a href="https://jolly-kalam-23776e.netlify.app/cssgridresponsive/">Link2</a><br><br>
+            <input class="btn" type="file">
+        </div></div>
+
+
+<br><br><br><br><br><br><br><br>
+    <div class="answer" id="answer11"><a href="http://127.0.0.1:8000/"><button onclick="submitAssign()" class="btn">Submit</button></a></div>
 
 </div>
 
