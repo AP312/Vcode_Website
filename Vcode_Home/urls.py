@@ -20,5 +20,16 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.display_home, name="Home Page"),
-    path('FeHtml', views.display_feh, name="FeHtml Page")
+    path('IDE', views.display_ide, name="IDE Page"),
+    path('FeHtml', views.display_feh, name="FeHtml Page"),
+    path('FeCss', views.display_fec, name="FeCss Page"),
+    path('FeJs', views.display_fej, name="FeJs Page"),
+    path('BeDjango', views.display_bdj, name="BeDjango Page"),
+    path('DbMysql', views.display_dms, name="DbMysql Page"),
+    path('github', views.display_gh, name="github Page"),
+    path('roadmap', views.display_rp, name="roadmap Page"),
+    path('fequiz1', views.display_fq1, name="fequiz1 Page"),
+    path('feassign1', views.display_fa1, name="feassign1 Page"),
+    path('register', views.display_register, name="register Page"),
+    path('login', views.display_login, name="login Page")
 ]

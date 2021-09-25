@@ -313,10 +313,47 @@ background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, F
         #footerimageli
         {
             position: relative;
-            right: 850px;
+            right: 800px;
             bottom: 90px;
         }
+        [id ^="fot"]
+        {
+            display: block;
+            text-decoration: none;
+            text-align:center;
+            color: white;
+        }
+        .footercontent li:hover
+       {
+            box-shadow: 5px 5px 2px brown;
+            background: #00C9FF;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            border-radius: 30px;
+       }
 
+       .avatarli
+       {
+        border-style:none;
+       }
+
+       #avatarli
+       {
+        border-style:none;
+       }
+
+
+       .avatar
+       {
+         border-radius: 200px;
+         width:35px;
+         height:35px;
+       }
+
+       html
+       {
+            scroll-behavior: smooth;
+       }
 
 
 
@@ -360,13 +397,13 @@ background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, F
 <body>
 <div id="navmenu">
     <ul id="nav" class="navlink">
-        <li id="navlist">List</li>
-        <li ><a id="navr6" href="Home.html">Avatar</a></li>
-        <li id="navr5">login</li>
-        <li id="navr4">Contact</li>
-        <li id="navr3">About</li>
-        <li id="navr2">Code</li>
-        <li id="navr1">Home</li>
+        <li id="navlist"><a id="navr0" href="http://127.0.0.1:8000/roadmap">Course</a></li>
+        <li id="avatarli" class="avatarli"><a id="navr6" href="http://127.0.0.1:8000/login"><img class="avatar"  src="{% static 'images/img41.png' %}"></a></li>
+        <li ><a id="navr5" href="http://127.0.0.1:8000/login">login</a></li>
+        <li ><a id="navr4" href="#developer1">Contact</a></li>
+        <li ><a id="navr3" href="#aboutvcode">About</a></li>
+        <li ><a id="navr2" href="http://127.0.0.1:8000/IDE">Code</a></li>
+        <li ><a id="navr1" href="http://127.0.0.1:8000/">Home</a></li>
     </ul>
 
 </div>
@@ -392,8 +429,8 @@ background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, F
 
 
 <div class="introcontent">
-<div class="introcontent1">
-    <h2>ABOUT VCODE</h2>
+<div id="aboutvcode" class="introcontent1">
+    <h2 >ABOUT VCODE</h2>
 </div>
 <h1><div class="introcontent2">
     At Vcode we will not only make you able to write a code but also make efficient to understand it<br><br>
@@ -604,14 +641,13 @@ background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, F
 <div class="footer">
 <div class="footercontent">
 
-    <ul >
-
-        <li ><a href="Home.html">Avatar</a></li>
-        <li >login</li>
-        <li >Contact</li>
-        <li >About</li>
-        <li >Code</li>
-        <li >Home</li>
+    <ul>
+        <li class="avatarli"><a id="fot6" href="Home.html"><img class="avatar" src="{% static 'images/img41.png' %}"></a></li>
+        <li ><a id="fot5" href="Home.html">login</a></li>
+        <li ><a id="fot4" href="#developer1">Contact</a></li>
+        <li ><a id="fot3" href="#aboutvcode">About</a></li>
+        <li ><a id="fot2" href="http://127.0.0.1:8000/IDE">Code</a></li>
+        <li ><a id="fot1" href="http://127.0.0.1:8000/">Home</a></li>
         <li id="footerimageli"><img id="footerimage" src="{% static 'images/img.png' %}"></li>
     </ul>
 

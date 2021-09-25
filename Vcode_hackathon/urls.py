@@ -19,5 +19,16 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Vcode_Home.urls')),
-    path('FeHtml', include('Vcode_Home.urls'))
+    path('IDE', include('Vcode_Home.urls')),
+    path('FeHtml', include('Vcode_Home.urls')),
+    path('FeCss', include('Vcode_Home.urls')),
+    path('FeJs', include('Vcode_Home.urls')),
+    path('BeDjango', include('Vcode_Home.urls')),
+    path('DbMysql', include('Vcode_Home.urls')),
+    path('github', include('Vcode_Home.urls')),
+    path('roadmap', include('Vcode_Home.urls')),
+    path('fequiz1', include('Vcode_Home.urls')),
+    path('feassign1', include('Vcode_Home.urls')),
+    path('register', include('Vcode_Home.urls')),
+    path('login', include('Vcode_Home.urls'))
 ]

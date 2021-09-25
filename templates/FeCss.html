@@ -68,6 +68,7 @@
             background-image: url("{% static 'images/img13.png' %}");
             background-size: 100% 100%;
             background-attachment:fixed;
+            box-shadow: 1px 1px 12px white;
             }
 
         .fecontent2
@@ -97,7 +98,7 @@
             background: #DA22FF;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            box-shadow: 1px 1px 12px white;
+
         }
 
         #feimage1
@@ -216,11 +217,12 @@ background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, F
 <body>
 <div id="navmenu">
     <ul id="nav" class="navlink">
-        <li id="navlist"><a id="navr0" href="http://127.0.0.1:8000/roadmap">List</a></li>
+        <li id="navlist"><a id="navr0" href="http://127.0.0.1:8000/roadmap">Course</a></li>
         <li id="avatarli" class="avatarli"><a id="navr6" href="Home.html"><img class="avatar"  src="{% static 'images/img41.png' %}"></a></li>
-        <li ><a id="navr5" href="#section3">Section 3</a></li>
-        <li ><a id="navr4" href="#section2">Section 2</a></li>
-        <li ><a id="navr3" href="#section1">Section 1</a></li>
+        <li ><a id="navr5.1" href="Home.html">Section 4</a></li>
+        <li ><a id="navr5" href="Home.html">Section 3</a></li>
+        <li ><a id="navr4" href="#developer1">Section 2</a></li>
+        <li ><a id="navr3" href="#aboutvcode">Section 1</a></li>
         <li ><a id="navr2" href="http://127.0.0.1:8000/IDE">Code</a></li>
         <li ><a id="navr1" href="http://127.0.0.1:8000/">Home</a></li>
     </ul>
@@ -230,57 +232,32 @@ background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, F
 
 <div id="introcontent" class="fecontent">
 <div class="fecontent1">
-    <b>Front-End-Technology-1 : HTML</b>
+    <b>Front-End-Technology-2 : CSS</b>
 </div>
 <b><div id="introcontent1" class="fecontent2">
-<div class="fecontent1"><h2>Introduction : </h2></div>
+<div class="fecontent1"><h2>Intoduction : </h2></div>
     <br>
-    <div class="fecontent1"><h3>What is HTML?</h3></div><br><br>
-HTML stands for Hyper Text Markup Language<br><br>
-HTML is the standard markup language for creating Web pages<br><br>
-HTML describes the structure of a Web page<br><br>
-HTML consists of a series of elements<br><br>
-HTML elements tell the browser how to display the content<br><br>
-HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
-    <br><br><br><br><div class="fecontent1"><h3>What is an HTML Element?</h3></div><br><br>
-An HTML element is defined by a start tag, some content, and an end tag:
-&lt;tagname&gt;Content goes here...&lt;/tagname&gt;<br><br>
-The HTML element is everything from the start tag to the end tag:<br>
-&lt;h1&gt;My First Heading&lt;/tagname&gt;<br>
-&lt;p&gt;My first paragraph.&lt;/p&gt;<br><br>
-        Some HTML elements have no content (like the &lt;br&gt; element). These elements are called empty elements
-        <br>Empty elements do not have an end tag!<br><br>
-    <br><br><div class="fecontent1"><h3>Web Browsers:</h3></div><br><br>
-The Purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly
-<br><br>
-A browser does not display the HTML tags, but uses them to determine how to display the document<br><br>
-    <div id="feimage1"><img src="{% static 'images/img19.png' %}"></div>
-    <br><br><br><br>
-    <div class="fecontent1"><h3>HTML Page Structure</h3></div><br><br>
-Below is a visualization of an HTML page structure:<br><br>
-    <div id="feimage2"><img src="{% static 'images/img20.png' %}"></div>
+    <div class="fecontent1"><h3>What is CSS?</h3></div><br><br>
+CSS stands for Cascading Style Sheets<br><br>
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media<br><br>
+CSS saves a lot of work. It can control the layout of multiple web pages all at once<br><br>
+External stylesheets are stored in CSS files<br><br>
 
-    <br><br><div  class="fecontent1"><h3>HTML HISTORY</h3></div><br><br><br><br>
-    <div id="hcontent">
-    Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version<br><br>
-1989&nbsp;&nbsp;&nbsp;&nbsp;    Tim Berners-Lee invented www<br>
-1991&nbsp;&nbsp;&nbsp;&nbsp;	Tim Berners-Lee invented HTML<br>
-1993&nbsp;&nbsp;&nbsp;&nbsp;	Dave Raggett drafted HTML+<br>
-1995&nbsp;&nbsp;&nbsp;&nbsp;	HTML Working Group defined HTML 2.0<br>
-1997&nbsp;&nbsp;&nbsp;&nbsp;	W3C Recommendation: HTML 3.2<br>
-1999&nbsp;&nbsp;&nbsp;&nbsp;	W3C Recommendation: HTML 4.01<br>
-2000&nbsp;&nbsp;&nbsp;&nbsp;	W3C Recommendation: XHTML 1.0<br>
-2008&nbsp;&nbsp;&nbsp;&nbsp;	WHATWG HTML5 First Public Draft<br>
-2012&nbsp;&nbsp;&nbsp;&nbsp;	WHATWG HTML5 Living Standard<br>
-2014&nbsp;&nbsp;&nbsp;&nbsp;	W3C Recommendation: HTML5<br>
-2016&nbsp;&nbsp;&nbsp;&nbsp;	W3C Candidate Recommendation: HTML 5.1<br>
-2017&nbsp;&nbsp;&nbsp;&nbsp;	W3C Recommendation: HTML5.1 2nd Edition<br>
-2017&nbsp;&nbsp;&nbsp;&nbsp;	W3C Recommendation: HTML5.2<br>
-</div>
+<br><br><br><br><div class="fecontent1"><h3>Why Use CSS?</h3></div><br><br>
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.<br>
 
-    <br><br><br><br><div class="fecontent1"><h3>Video Tutorial : HTML EVOLUTION</h3></div><br><br>
-    <div id="fevideo1"><iframe width="560" height="315" src="https://www.youtube.com/embed/U9HpAZk2sys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+    <br><br><div class="fecontent1"><h3>CSS Solved a Big Problem</h3></div><br><br>
+HTML was NEVER intended to contain tags for formatting a web page!<br>
+    HTML was created to describe the content of a web page, like:<br><br>
+&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
+    When tags like &lt;font&gt;, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. <br><br>
+    Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.<br><br>
+    To solve this problem, the World Wide Web Consortium (W3C) created CSS.<br><br>
+    <div id="feimage2"><img src="{% static 'images/img36.png' %}"></div>
+
+    <br><br><br><br><div class="fecontent1"><h3>Video Tutorial : CSS EVOLUTION</h3></div><br><br>
+    <div id="fevideo1"><iframe width="560" height="315" src="https://www.youtube.com/embed/qKoajPPWpmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
     </div></b>
 
@@ -345,7 +322,7 @@ Save the file on your computer. Select File > Save as in the Notepad menu.<br>
     <br>
 
 <b><div id="hnpcontent1" class="fecontent2">
-<div class="fecontent1" id="section1"><h2>Headings & Paragraphs : </h2></div>
+<div class="fecontent1"><h2>Headings & Paragraphs : </h2></div>
     <br>
     <div class="fecontent1"><h3>HTML Headings</h3></div><br><br>
 HTML headings are titles or subtitles that you want to display on a webpage.<br>
@@ -468,7 +445,7 @@ The HTML &lt;small&gt; element defines smaller text<br><br>
     <br>
 
 <b><div id="lntcontent1" class="fecontent2">
-<div class="fecontent1" id="section2"><h2>HTML Lists and Tables  </h2></div>
+<div class="fecontent1"><h2>HTML Lists and Tables : </h2></div>
     <br>
     <div class="fecontent1"><h3>Unordered HTML List</h3></div><br><br>
 An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.<br>
@@ -581,7 +558,7 @@ Both examples above are using an absolute URL (a full web address) in the href a
     <br>
 
 <b><div id="inicontent1" class="fecontent2">
-<div class="fecontent1" id="section3"><h2>HTML Multimedia : </h2></div>
+<div class="fecontent1"><h2>HTML Multimedia : </h2></div>
     <br>
     <div class="fecontent1"><h3>HTML Images Syntax</h3></div><br><br>
 Images can improve the design and the appearance of a web page.<br>
