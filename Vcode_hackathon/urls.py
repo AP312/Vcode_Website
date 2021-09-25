@@ -30,5 +30,6 @@ urlpatterns = [
     path('fequiz1', include('Vcode_Home.urls')),
     path('feassign1', include('Vcode_Home.urls')),
     path('register', include('Vcode_Home.urls')),
-    path('login', include('Vcode_Home.urls'))
+    path('login', include('Vcode_Home.urls')),
+    path('other', include('Vcode_Home.urls'))
 ]

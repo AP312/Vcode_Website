@@ -57,4 +57,8 @@ def display_login(request):
     return render(request, 'login.html')
 
 
+def display_other(request):
+    return render(request, 'other.html')
+
+
 

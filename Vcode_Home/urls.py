@@ -31,5 +31,6 @@ urlpatterns = [
     path('fequiz1', views.display_fq1, name="fequiz1 Page"),
     path('feassign1', views.display_fa1, name="feassign1 Page"),
     path('register', views.display_register, name="register Page"),
-    path('login', views.display_login, name="login Page")
+    path('login', views.display_login, name="login Page"),
+    path('other', views.display_other, name="books Page")
 ]
